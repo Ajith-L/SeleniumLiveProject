@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16239" started-at="2021-03-11T13:08:20 IST" finished-at="2021-03-11T13:08:36 IST">
+  <suite name="Live Project" duration-ms="39032" started-at="2021-03-19T12:46:37 IST" finished-at="2021-03-19T12:47:16 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16239" started-at="2021-03-11T13:08:20 IST" finished-at="2021-03-11T13:08:36 IST">
-      <class name="loginpage.LoginPage">
-        <test-method status="PASS" signature="page()[pri:0, instance:loginpage.LoginPage@bbe345]" name="page" duration-ms="16101" started-at="2021-03-11T13:08:20 IST" finished-at="2021-03-11T13:08:36 IST">
+    <test name="login page" duration-ms="39032" started-at="2021-03-19T12:46:37 IST" finished-at="2021-03-19T12:47:16 IST">
+      <class name="testcase.Test_Admin_Usermangement_User">
+        <test-method status="PASS" signature="browser()[pri:0, instance:testcase.Test_Admin_Usermangement_User@1063c0a]" name="browser" is-config="true" duration-ms="26613" started-at="2021-03-19T12:46:37 IST" finished-at="2021-03-19T12:47:03 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- page -->
-      </class> <!-- loginpage.LoginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="loginpage()[pri:0, instance:testcase.Test_Admin_Usermangement_User@1063c0a]" name="loginpage" duration-ms="12344" started-at="2021-03-19T12:47:03 IST" finished-at="2021-03-19T12:47:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Test_Admin_Usermangement_User@1063c0a]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-03-19T12:47:16 IST" finished-at="2021-03-19T12:47:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcase.Test_Admin_Usermangement_User -->
+    </test> <!-- login page -->
+  </suite> <!-- Live Project -->
 </testng-results>
