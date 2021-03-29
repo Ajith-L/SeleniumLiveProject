@@ -11,7 +11,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 import testobject.LoginPageObject;
 
@@ -33,6 +32,8 @@ public class CommonFnction {
 		String broswer = properties.getProperty("browser");
 		String driverlocation = properties.getProperty("driverlocation");
 		String url = properties.getProperty("url");
+		String username=properties.getProperty("username");
+		String password=properties.getProperty("password");
 
 		if (broswer.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", driverlocation);
@@ -42,21 +43,18 @@ public class CommonFnction {
 			driver = new FirefoxDriver();
 
 		}
-		
 		driver.manage().window().maximize();
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		PageFactory.initElements(driver, LoginPageObject.class);
-		LoginPageObject.username.sendKeys(properties.getProperty("username"));
-		LoginPageObject.password.sendKeys(properties.getProperty("password"));
+		LoginPageObject.username.sendKeys(username);
+		LoginPageObject.password.sendKeys(password);
 		LoginPageObject.button.click();
-
 	}
 
 	@AfterTest
 	public void tearDown() {
-		
-		//driver.quit();
+		// driver.quit();
 	}
 }

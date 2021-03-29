@@ -51,6 +51,44 @@
 		</classes>
 	</test>
 	
+	<test name="Skills">
+		<classes>
+			<class name="testcase.Admin_Qualification_Skills">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Edcation">
+		<classes>
+			<class name="testcase.Admin_Qualification_Edcation">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Licenses">
+		<classes>
+			<class name="testcase.Admin_Qualification_Licenses">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Language">
+		<classes>
+			<class name="testcase.Admin_Qualification_Language">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Memberships">
+		<classes>
+			<class name="testcase.Admin_Qualification_Memberships">
+			</class>
+		</classes>
+	</test>
+	
 	<test name="PIM page">
 		<classes>
 			<class name="testcase.PIM">

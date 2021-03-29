@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34686" started-at="2021-03-29T13:58:15 IST" finished-at="2021-03-29T13:58:50 IST">
+  <suite name="Default suite" duration-ms="22462" started-at="2021-03-29T18:21:10 IST" finished-at="2021-03-29T18:21:32 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34686" started-at="2021-03-29T13:58:15 IST" finished-at="2021-03-29T13:58:50 IST">
-      <class name="testcase.Admin_Organization_Structure">
-        <test-method status="PASS" signature="browser()[pri:0, instance:testcase.Admin_Organization_Structure@136e637]" name="browser" is-config="true" duration-ms="30609" started-at="2021-03-29T13:58:15 IST" finished-at="2021-03-29T13:58:46 IST">
+    <test name="Default test" duration-ms="22462" started-at="2021-03-29T18:21:10 IST" finished-at="2021-03-29T18:21:32 IST">
+      <class name="testcase.Admin_Qualification_Skills">
+        <test-method status="PASS" signature="browser()[pri:0, instance:testcase.Admin_Qualification_Skills@136e637]" name="browser" is-config="true" duration-ms="19772" started-at="2021-03-29T18:21:10 IST" finished-at="2021-03-29T18:21:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method status="PASS" signature="Structure()[pri:0, instance:testcase.Admin_Organization_Structure@136e637]" name="Structure" duration-ms="3992" started-at="2021-03-29T13:58:46 IST" finished-at="2021-03-29T13:58:50 IST">
+        <test-method status="PASS" signature="Skills()[pri:0, instance:testcase.Admin_Qualification_Skills@136e637]" name="Skills" duration-ms="2599" started-at="2021-03-29T18:21:30 IST" finished-at="2021-03-29T18:21:32 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Structure -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Admin_Organization_Structure@136e637]" name="tearDown" is-config="true" duration-ms="3" started-at="2021-03-29T13:58:50 IST" finished-at="2021-03-29T13:58:50 IST">
+        </test-method> <!-- Skills -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Admin_Qualification_Skills@136e637]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-03-29T18:21:32 IST" finished-at="2021-03-29T18:21:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcase.Admin_Organization_Structure -->
+      </class> <!-- testcase.Admin_Qualification_Skills -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

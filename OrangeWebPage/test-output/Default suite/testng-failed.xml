@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcase.Admin_Organization_Location">
+      <class name="testcase.Admin_Qualification_Skills">
         <methods>
-          <include name="OrganizationLocation"/>
+          <include name="Skills"/>
           <include name="tearDown"/>
           <include name="browser"/>
         </methods>
-      </class> <!-- testcase.Admin_Organization_Location -->
+      </class> <!-- testcase.Admin_Qualification_Skills -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
