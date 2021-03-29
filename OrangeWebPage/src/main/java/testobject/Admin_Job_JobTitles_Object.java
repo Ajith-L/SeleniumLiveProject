@@ -25,6 +25,5 @@ public class Admin_Job_JobTitles_Object {
 	@FindBy(xpath="//input[@id='btnSave']")
 	public static WebElement Save_Btn;
 	
-	@FindBy(xpath="//*[@id='frmList_ohrmListComponent']")
-	public static WebElement asert1;
+	
 }

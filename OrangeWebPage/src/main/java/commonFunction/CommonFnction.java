@@ -56,6 +56,7 @@ public class CommonFnction {
 
 	@AfterTest
 	public void tearDown() {
+		
 		//driver.quit();
 	}
 }
