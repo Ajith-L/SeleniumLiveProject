@@ -13,4 +13,8 @@ public class Admin_Qualification_Licenses_Object {
 	
 	@FindBy(xpath="//ul//li[3]//a[@id='menu_admin_viewLicenses']")
 	public static WebElement Licenses;
+	
+	
+	@FindBy(xpath="//*[@id='recordsListTable']")
+	public static WebElement table;
 }

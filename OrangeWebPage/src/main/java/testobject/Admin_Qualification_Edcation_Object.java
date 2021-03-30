@@ -1,4 +1,4 @@
-package testcase;
+package testobject;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,4 +13,7 @@ public class Admin_Qualification_Edcation_Object {
 	
 	@FindBy(xpath="//ul//li[2]//a[@id='menu_admin_viewEducation']")
 	public static WebElement Education;
+	
+	@FindBy(xpath="//tr//th//input[@id='checkAll']")
+	public static WebElement click;
 }

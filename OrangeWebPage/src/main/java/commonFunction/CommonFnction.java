@@ -54,7 +54,7 @@ public class CommonFnction {
 	}
 
 	@AfterTest
-	public void tearDown() {
-		// driver.quit();
+	public void tearDown() throws InterruptedException {
+		//driver.quit();
 	}
 }

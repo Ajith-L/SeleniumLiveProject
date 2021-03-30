@@ -1,5 +1,7 @@
 package testcase;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
@@ -16,6 +18,12 @@ public class Admin_Qualification_Skills extends CommonFnction {
 		actions.moveToElement(Admin_Qualification_Skills_Object.Qualifications);
 		actions.moveToElement(Admin_Qualification_Skills_Object.Skils);
 		actions.click().build().perform();
+		
+		assertEquals(Admin_Qualification_Skills_Object.ast.getText(),"Name");
+		
+		
+		
+		
 	}
 
 }

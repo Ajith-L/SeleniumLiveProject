@@ -13,4 +13,7 @@ public class Admin_Qualification_Langage_Object {
 	
 	@FindBy(xpath="//ul//li[4]//a[@id='menu_admin_viewLanguages']")
 	public static WebElement Languages;
+	
+	@FindBy(xpath="//*[@id='recordsListTable']/tbody/tr[1]/td[2]/a")
+	public static WebElement msg;
 }

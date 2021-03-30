@@ -15,6 +15,6 @@ public class Admin_Qualification_Skills_Object {
 	public static WebElement  Skils;
 	
 	
-	@FindBy(xpath="")
-	public static WebElement ad;
+	@FindBy(xpath="//*[@id=\"recordsListTable\"]/thead/tr/th[2]")
+	public static WebElement ast;
 }
