@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26996" started-at="2021-03-30T09:07:35 IST" finished-at="2021-03-30T09:08:02 IST">
+  <suite name="Default suite" duration-ms="26004" started-at="2021-04-13T11:15:12 IST" finished-at="2021-04-13T11:15:38 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26996" started-at="2021-03-30T09:07:35 IST" finished-at="2021-03-30T09:08:02 IST">
-      <class name="testcase.Admin_Qualification_Memberships">
-        <test-method status="PASS" signature="browser()[pri:0, instance:testcase.Admin_Qualification_Memberships@136e637]" name="browser" is-config="true" duration-ms="24315" started-at="2021-03-30T09:07:35 IST" finished-at="2021-03-30T09:07:59 IST">
+    <test name="Default test" duration-ms="26004" started-at="2021-04-13T11:15:12 IST" finished-at="2021-04-13T11:15:38 IST">
+      <class name="testcase.Performance_EmployeeTrackers">
+        <test-method status="PASS" signature="browser()[pri:0, instance:testcase.Performance_EmployeeTrackers@136e637]" name="browser" is-config="true" duration-ms="23113" started-at="2021-04-13T11:15:12 IST" finished-at="2021-04-13T11:15:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method status="PASS" signature="Memberships()[pri:0, instance:testcase.Admin_Qualification_Memberships@136e637]" name="Memberships" duration-ms="2560" started-at="2021-03-30T09:07:59 IST" finished-at="2021-03-30T09:08:02 IST">
+        <test-method status="PASS" signature="MyReview()[pri:0, instance:testcase.Performance_EmployeeTrackers@136e637]" name="MyReview" duration-ms="2802" started-at="2021-04-13T11:15:35 IST" finished-at="2021-04-13T11:15:38 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Memberships -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Admin_Qualification_Memberships@136e637]" name="tearDown" is-config="true" duration-ms="5" started-at="2021-03-30T09:08:02 IST" finished-at="2021-03-30T09:08:02 IST">
+        </test-method> <!-- MyReview -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcase.Performance_EmployeeTrackers@136e637]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-13T11:15:38 IST" finished-at="2021-04-13T11:15:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcase.Admin_Qualification_Memberships -->
+      </class> <!-- testcase.Performance_EmployeeTrackers -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -55,6 +55,7 @@ public class CommonFnction {
 
 	@AfterTest
 	public void tearDown() throws InterruptedException {
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		//driver.quit();
 	}
 }

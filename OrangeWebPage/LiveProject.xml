@@ -43,57 +43,422 @@
 			</class>
 		</classes>
 	</test>
-	
+
 	<test name="GeneralInformation">
 		<classes>
 			<class name="testcase.Admin_Organization_GeneralInformation">
 			</class>
 		</classes>
 	</test>
-	
+
 	<test name="Skills">
 		<classes>
 			<class name="testcase.Admin_Qualification_Skills">
 			</class>
 		</classes>
 	</test>
-	
+
 	<test name="Edcation">
 		<classes>
 			<class name="testcase.Admin_Qualification_Edcation">
 			</class>
 		</classes>
 	</test>
-	
-	
+
+
 	<test name="Licenses">
 		<classes>
 			<class name="testcase.Admin_Qualification_Licenses">
 			</class>
 		</classes>
 	</test>
-	
-	
+
+
 	<test name="Language">
 		<classes>
 			<class name="testcase.Admin_Qualification_Language">
 			</class>
 		</classes>
 	</test>
-	
-	
+
+
 	<test name="Memberships">
 		<classes>
 			<class name="testcase.Admin_Qualification_Memberships">
 			</class>
 		</classes>
 	</test>
-	
+
+	<test name="nationalites">
+		<classes>
+			<class name="testcase.Admin_nationalites">
+			</class>
+		</classes>
+	</test>
+
+	<test name="EmailConfiguration">
+		<classes>
+			<class name="testcase.Admin_Configuration_EmailConfiguration">
+			</class>
+		</classes>
+	</test>
+
+	<test name="EmailSubscripition">
+		<classes>
+			<class name="testcase.Admin_Configuration_EmailSubscripition">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Localization">
+		<classes>
+			<class name="testcase.Admin_Configuration_Localization">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LanguagePackages">
+		<classes>
+			<class name="testcase.Admin_Configuration_LanguagePackages">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Modules">
+		<classes>
+			<class name="testcase.Admin_Configuration_Modules">
+			</class>
+		</classes>
+	</test>
+
+	<test name="SocialMediaAuthentication">
+		<classes>
+			<class
+				name="testcase.Admin_Configuration_SocialMediaAuthentication">
+			</class>
+		</classes>
+	</test>
+
+	<test name="RegisterOAuthClient">
+		<classes>
+			<class name="testcase.Admin_Configuration_RegisterOAuthClient">
+			</class>
+		</classes>
+	</test>
+
 	<test name="PIM page">
 		<classes>
 			<class name="testcase.PIM">
 			</class>
 		</classes>
 	</test>
+
+	<test name="DataImport">
+		<classes>
+			<class name="testcase.PIM_Configuration_DataImport">
+			</class>
+		</classes>
+	</test>
+
+	<test name="ReportingMethod">
+		<classes>
+			<class name="testcase.PIM_Configuration_ReportingMethod">
+			</class>
+		</classes>
+	</test>
+
+	<test name="TerminationReason">
+		<classes>
+			<class name="testcase.PIM_Configuration_TerminationReason">
+			</class>
+		</classes>
+	</test>
+
+	<test name="PIM_EmployeeList">
+		<classes>
+			<class name="testcase.PIM_EmployeeList">
+			</class>
+		</classes>
+	</test>
+
+	<test name="AddEmployee">
+		<classes>
+			<class name="testcase.PIM_AddEmployee">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Reports">
+		<classes>
+			<class name="testcase.PIM_Reports">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Leve_Apply">
+		<classes>
+			<class name="testcase.Leve_Apply">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Employee_Entitlements">
+		<classes>
+			<class name="testcase.Leave_Employee_Entitlements">
+			</class>
+		</classes>
+	</test>
+
+	<test name="MyEntitlement">
+		<classes>
+			<class name="testcase.Leave_Entitlements_MyEntitlements">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LeaveEntitlementsageReport">
+		<classes>
+			<class name="testcase.Leave_Report_LeaveEntitlementsageReport">
+			</class>
+		</classes>
+	</test>
+
+	<test name="MyLeaveEntitlementsageReport">
+		<classes>
+			<class
+				name="testcase.MyLeave_Report_LeaveEntitlementsageReport">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LeavePeriod">
+		<classes>
+			<class name="testcase.Leave_Configure_LeavePeriod">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LeaveTypes">
+		<classes>
+			<class name="testcase.Leave_Configure_LeaveTypes">
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Holidays">
+		<classes>
+			<class name="testcase.Leave_Configure_Holidays">
+			</class>
+		</classes>
+	</test>
+
+	<test name="LeaveList">
+		<classes>
+			<class name="testcase.Leave_LeaveList">
+			</class>
+		</classes>
+	</test>
+
+	<test name="AssignLeave">
+		<classes>
+			<class name="testcase.Leave_AssignLeave">
+			</class>
+		</classes>
+	</test>
+
+	<test name="MyTimeSheet">
+		<classes>
+			<class name="testcase.Time_Timesheet_MyTimeSheet">
+			</class>
+		</classes>
+	</test>
+
+	<test name="EmployeeTimesheet ">
+		<classes>
+			<class name="testcase.Time_Timesheets_EmployeeTimesheet">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Myrecord">
+		<classes>
+			<class name="testcase.Time_Attendance_Myrecord">
+			</class>
+		</classes>
+	</test>
+
+	<test name="PunchInOut">
+		<classes>
+			<class name="testcase.Time_Attendance_PunchInOut">
+			</class>
+		</classes>
+	</test>
+
+	<test name="EmployeeRecord">
+		<classes>
+			<class name="testcase.Time_Attendance_EmployeeRecord">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Attendance_Configration">
+		<classes>
+			<class name="testcase.Time_Attendance_Configration">
+			</class>
+		</classes>
+	</test>
+
+	<test name="ProjectReport">
+		<classes>
+			<class name="testcase.Time_Report_ProjectReport">
+			</class>
+		</classes>
+	</test>
+
+	<test name="EmployeeReport">
+		<classes>
+			<class name="testcase.Time_Report_EmployeeReport">
+			</class>
+		</classes>
+	</test>
+
+	<test name="attendanceSummary">
+		<classes>
+			<class name="testcase.Time_Report_attendanceSummary">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Projectinfo_Customer">
+		<classes>
+			<class name="testcase.Time_Projectinfo_Customer">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Projectinfo_project">
+		<classes>
+			<class name="testcase.Time_Projectinfo_project">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="candidates">
+		<classes>
+			<class name="testcase.Recruitment_candidates">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="vacancies">
+		<classes>
+			<class name="testcase.Recruitment_vacancies">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="My_Info">
+		<classes>
+			<class name="testcase.My_Info">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="KPIs">
+		<classes>
+			<class name="testcase.Performance_Configre_KPIs">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Tracker">
+		<classes>
+			<class name="testcase.Performance_Configre_Tracker">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Review">
+		<classes>
+			<class name="testcase.Performance_MangeReview_Review">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="MyReview">
+		<classes>
+			<class name="testcase.Performance_MangeReview_MyReview">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="ReviewList">
+		<classes>
+			<class name="testcase.Performance_MangeReview_ReviewList">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="">
+		<classes>
+			<class name="testcase.">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="MyTracker">
+		<classes>
+			<class name="testcase.Performance_MyTrackers">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="EmployeeTrackers">
+		<classes>
+			<class name="testcase.Performance_EmployeeTrackers">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="">
+		<classes>
+			<class name="testcase.">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="">
+		<classes>
+			<class name="testcase.">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="">
+		<classes>
+			<class name="testcase.">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="">
+		<classes>
+			<class name="testcase.">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="">
+		<classes>
+			<class name="testcase.">
+			</class>
+		</classes>
+	</test>
+	
 
 </suite>
